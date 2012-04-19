@@ -14,3 +14,8 @@ To use this, you must build cutycapt with qt4 and qt4-devel, qt4-webkit.
 
     $runner->capture( 'http://google.com' , 'google.png' );
 ```
+
+Run Tests
+---------
+
+    CUTY_BIN=/Users/c9s/src/webpage-screenshot/CutyCapt/CutyCapt.app/Contents/MacOS/CutyCapt phpunit tests/CutyCaptRunnerTest.php
