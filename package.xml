@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.10" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0        http://pear.php.net/dtd/tasks-1.0.xsd        http://pear.php.net/dtd/package-2.0        http://pear.php.net/dtd/package-2.0.xsd">
+  <name>CutyCaptRunner</name>
+  <channel>pear.corneltek.com</channel>
+  <summary>CutyCapt Runner</summary>
+  <description>CutyCapt Runner</description>
+  <lead>
+    <name>Yo-An Lin</name>
+    <user/>
+    <email>cornelius.howl@gmail.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2012-04-20</date>
+  <time>02:32:41</time>
+  <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+  </version>
+  <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+  </stability>
+  <license>PHP</license>
+  <notes>-</notes>
+  <contents>
+    <dir name="/">
+      <file name="tests/CutyCaptRunnerTest.php" role="test" md5sum="82a8566be725ad3f4d8e1841d1ca9dd0"/>
+      <file name="src/CutyCaptRunner.php" role="php" md5sum="8d7f33e704214e4fe4912cccc8b0a51c"/>
+    </dir>
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.3</min>
+      </php>
+      <pearinstaller>
+        <min>1.4</min>
+      </pearinstaller>
+    </required>
+  </dependencies>
+  <phprelease>
+    <filelist>
+      <install name="tests/CutyCaptRunnerTest.php" as="CutyCaptRunnerTest.php"/>
+      <install name="src/CutyCaptRunner.php" as="CutyCaptRunner.php"/>
+    </filelist>
+  </phprelease>
+</package>
