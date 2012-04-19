@@ -11,7 +11,7 @@
     <active>yes</active>
   </lead>
   <date>2012-04-20</date>
-  <time>02:32:41</time>
+  <time>02:45:12</time>
   <version>
     <release>0.0.1</release>
     <api>0.0.1</api>
@@ -25,7 +25,7 @@
   <contents>
     <dir name="/">
       <file name="tests/CutyCaptRunnerTest.php" role="test" md5sum="82a8566be725ad3f4d8e1841d1ca9dd0"/>
-      <file name="src/CutyCaptRunner.php" role="php" md5sum="8d7f33e704214e4fe4912cccc8b0a51c"/>
+      <file name="src/CutyCaptRunner.php" role="php" md5sum="4eb2c96f07a1e5df9100f7e861d9cbfc"/>
     </dir>
   </contents>
   <dependencies>
